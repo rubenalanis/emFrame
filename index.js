@@ -38,7 +38,8 @@ const domains = [
   "https://xiamen-dev.everymundo.com",
   "https://openair-dev.everymundo.com",
   "https://openair-prepro.everymundo.com",
-  "https://openair.everymundo.com"
+  "https://openair.everymundo.com",
+  "http://localhost:3000" //for testing local
 ]
 let eventSource;
 
