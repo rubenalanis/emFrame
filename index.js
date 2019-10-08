@@ -93,9 +93,6 @@ const emcid = (origin) => {
 }
 
 const kpis = (origin, opts) => {
-  console.log("Got KPI request");
-  console.log(origin)
-  console.log(eventSource)
   let domains = [];
 
   const http = new XMLHttpRequest();
@@ -108,11 +105,9 @@ const kpis = (origin, opts) => {
       const reqBody = JSON.parse(http.responseText)
       domains = reqBody.domains;
       if (!domains.includes(origin)){
-      console.log("Unauthed Domain");
         return;
       }
       else {
-        console.log("Valid Domain");
         if (opts.method === 'set') {
           const airline = opts.airline;
           window.localStorage.setItem('kpi', airline);
@@ -148,7 +143,6 @@ const kpis = (origin, opts) => {
 
 
 const messageHandler = event => {
-  console.log(event.data)
   const { key, opts } = event.data;
   eventSource = event.source;
   switch (key) {
