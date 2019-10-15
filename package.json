@@ -1,0 +1,29 @@
+{
+  "name": "emFrame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.js",
+    "build": "parcel build index.js --out-file main.js --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EveryMundo/emFrame.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EveryMundo/emFrame/issues"
+  },
+  "homepage": "https://github.com/EveryMundo/emFrame#readme",
+  "dependencies": {
+    "@babel/core": "^7.6.4",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-remove-console": "^6.9.4"
+  }
+}
