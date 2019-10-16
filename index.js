@@ -156,5 +156,4 @@ const messageHandler = event => {
       console.log(`Invalid key ${key}. Ignoring message.`);
   }
 }
-
 window.addEventListener("message", messageHandler, false);
