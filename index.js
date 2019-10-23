@@ -74,7 +74,7 @@ const emcid = (origin) => {
 
           const genEmcid = numberGenerator(6);
 
-          window.localStorage.setItem('emcid', JSON.stringify(genEmcid));
+          window.localStorage.setItem('emcid', genEmcid);
           emcidValue = window.localStorage.getItem('emcid');
 
         }
