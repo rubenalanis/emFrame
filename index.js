@@ -44,7 +44,13 @@ const emcid = (origin) => {
       const reqBody = JSON.parse(http.responseText)
       domains = reqBody.domains;
       if (!domains.includes(origin))
-        return;
+        eventSource.postMessage(
+          {
+            key: "emcid",
+            value: "n/a"
+          },
+          "*"
+        );
       else {
         let emcidValue = window.localStorage.getItem('emcid');
 
