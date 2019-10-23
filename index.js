@@ -73,12 +73,17 @@ const emcid = (origin) => {
           }
 
           const genEmcid = numberGenerator(6);
-
+          
           window.localStorage.setItem('emcid', genEmcid);
           emcidValue = window.localStorage.getItem('emcid');
 
         }
-
+        if(/^"(.+(?="$))"$/.test(emcidValue)){
+          emcidValue = emcidValue.replace(/^"(.+(?="$))"$/, '$1');
+          window.localStorage.setItem('emcid', emcidValue);
+          emcidValue = window.localStorage.getItem('emcid');
+        }
+       
         eventSource.postMessage(
           {
             key: "emcid",
