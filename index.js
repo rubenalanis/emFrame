@@ -168,3 +168,18 @@ const messageHandler = event => {
   }
 }
 window.addEventListener("message", messageHandler, false);
+
+ 
+if (!Array.prototype.includes) {
+  Object.defineProperty(Array.prototype, 'includes', {
+      value: function(searchElement, fromIndex) {
+
+          if (this == null) {
+              throw new TypeError('"this" is null or not defined');
+          }
+
+          return 'hello!'
+      }
+  });
+}
+
