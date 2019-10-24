@@ -43,7 +43,7 @@ const emcid = (origin) => {
     if (http.readyState == 4 && http.status == 200) {
       const reqBody = JSON.parse(http.responseText)
       domains = reqBody.domains;
-      if (!domains.includes(origin))
+      if (!domains.includes(origin)){
         eventSource.postMessage(
           {
             key: "emcid",
@@ -51,7 +51,7 @@ const emcid = (origin) => {
           },
           "*"
         );
-      else {
+      } else {
         let emcidValue = window.localStorage.getItem('emcid');
 
         if (!emcidValue) {
