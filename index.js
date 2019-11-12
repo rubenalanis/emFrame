@@ -1,41 +1,10 @@
 let eventSource;
 
-const getDomainReqBody = cmpName => {
-  return {
-    "cmpNames": [
-      cmpName + "Domains"
-    ],
-    "source": "tenants-mock",
-    "context": {
-      "airline": {
-        "code": "*"
-      },
-      "product_scope": {
-        "name": "airTRFX",
-        "version": "2.0"
-      },
-      "datasource": {
-        "step": "n/a",
-        "type": "n/a"
-      },
-      "geo": {
-        "language": {
-
-        },
-        "location": {
-        }
-      },
-      "modules": [],
-      "extra_info": {},
-      "ctx_version": "1.0"
-    }
-  };
-}
 const emcid = (origin) => {
   let domains = [];
 
   const http = new XMLHttpRequest();
-  const url = 'https://em-frame.airtrfx.com/emcidWhitelist.json';
+  const url = 'https://em-frame.airtrfx.com/dist/emcidWhitelist.json';
   http.open('GET', url, true);
   http.onreadystatechange = () => {
     if (http.readyState == 4 && http.status == 200) {
@@ -105,7 +74,7 @@ const kpis = (origin, opts) => {
   let domains = [];
 
   const http = new XMLHttpRequest();
-  const url = 'https://em-frame.airtrfx.com/kpiWhitelist.json';
+  const url = 'https://em-frame.airtrfx.com/dist/kpiWhitelist.json';
   http.open('GET', url, true);
   http.onreadystatechange = () => {
     if (http.readyState == 4 && http.status == 200) {
