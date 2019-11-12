@@ -35,10 +35,8 @@ const emcid = (origin) => {
   let domains = [];
 
   const http = new XMLHttpRequest();
-  const url = 'https://em-frontend-get.airtrfx.com/integration/settings/v1';
-  const body = getDomainReqBody('emcid');
-  http.open('POST', url, true);
-  http.setRequestHeader('Content-type', 'application/json');
+  const url = 'https://em-frame.airtrfx.com/emcidWhitelist.json';
+  http.open('GET', url, true);
   http.onreadystatechange = () => {
     if (http.readyState == 4 && http.status == 200) {
       const reqBody = JSON.parse(http.responseText)
@@ -107,10 +105,8 @@ const kpis = (origin, opts) => {
   let domains = [];
 
   const http = new XMLHttpRequest();
-  const url = 'https://em-frontend-get.airtrfx.com/integration/settings/v1';
-  const body = getDomainReqBody('kpi');
-  http.open('POST', url, true);
-  http.setRequestHeader('Content-type', 'application/json');
+  const url = 'https://em-frame.airtrfx.com/kpiWhitelist.json';
+  http.open('GET', url, true);
   http.onreadystatechange = () => {
     if (http.readyState == 4 && http.status == 200) {
       const reqBody = JSON.parse(http.responseText)
