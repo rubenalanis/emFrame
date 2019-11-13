@@ -67,7 +67,7 @@ const emcid = (origin) => {
       }
     }
   };
-  http.send(JSON.stringify(body));
+  http.send();
 }
 
 const kpis = (origin, opts) => {
@@ -114,7 +114,7 @@ const kpis = (origin, opts) => {
       }
     }
   }
-  http.send(JSON.stringify(body));
+  http.send();
 }
 
 
