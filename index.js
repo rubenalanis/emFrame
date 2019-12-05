@@ -77,7 +77,7 @@ const kpis = (origin, opts) => {
     if (opts.method === 'set') {
       let airline = opts.airline;
       airline = typeof airline == 'string' && airline.length > 1? airline.toUpperCase():'--';
-      const expDate = new Date().getTime();
+      const expDate = new Date().getTime() + 2592000000;
       let storageItem = `${airline}&&${expDate.toString()}`;
       storageItem = btoa(storageItem);
       storageItem = `${storageItem}&&${opts.airline}`;
