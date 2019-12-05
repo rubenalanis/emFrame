@@ -75,8 +75,13 @@ const kpis = (origin, opts) => {
     return;
   } else {
     if (opts.method === 'set') {
-      const airline = opts.airline;
-      window.localStorage.setItem('kpi', airline);
+      let airline = opts.airline;
+      airline = typeof airline == 'string' && airline.length > 1? airline.toUpperCase():'--';
+      const expDate = new Date().getTime();
+      let storageItem = `${airline}&&${expDate.toString()}`;
+      storageItem = btoa(storageItem);
+      storageItem == `${storageItem}&&${opts.airline}`;
+      window.localStorage.setItem('kpi', storageItem);
     } else if (opts.method === 'logout') {
       localStorage.removeItem('kpi');
     } else if (opts.method === 'get') {
