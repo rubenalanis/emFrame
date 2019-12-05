@@ -80,7 +80,7 @@ const kpis = (origin, opts) => {
       const expDate = new Date().getTime();
       let storageItem = `${airline}&&${expDate.toString()}`;
       storageItem = btoa(storageItem);
-      storageItem == `${storageItem}&&${opts.airline}`;
+      storageItem = `${storageItem}&&${opts.airline}`;
       window.localStorage.setItem('kpi', storageItem);
     } else if (opts.method === 'logout') {
       localStorage.removeItem('kpi');
