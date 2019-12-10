@@ -98,7 +98,7 @@ const kpis = (origin, opts) => {
         eventSource.postMessage(
           {
             key: "kpi",
-            value: false
+            value: "null"
           },
           "*"
         );
