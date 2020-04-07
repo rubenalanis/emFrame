@@ -34,11 +34,14 @@
         "https://flights.flypgs.com",
         "https://flights.ryanair.com",
         "https://singaporeair.com",
+        "https://www.singaporeair.com",
+        "http://www.thaismileair.com",
         "https://flights.staralliance.com",
         "https://flights.flytap.com",
         "https://flights.thaiairways.com",
         "https://flights.virginaustralia.com",
         "https://flights.volaris.com",
+        "https://www.wingo.com",
         "https://aegean-dev.everymundo.com",
         "https://aeromexico-dev.everymundo.com",
         "https://airberlin-dev.everymundo.com",
@@ -162,6 +165,9 @@
         "https://www.staralliance.com",
         "https://www.united.com",
         "https://www.volaris.com",
+        "https://www.wingo.com",
+        "https://www.singaporeair.com",
+        "http://www.thaismileair.com",
         "https://xiamen-dev.everymundo.com"
     ]
 }
