@@ -126,6 +126,15 @@ const messageHandler = event => {
       else
         setTimeout(()=>kpis(event.origin, opts), 1000)
       break;
+    case 'marco':
+      eventSource.postMessage(
+        {
+          key: 'marco',
+          value: 'polo'
+        },
+        "*"
+      );
+      break;
     default:
       console.log(`Invalid key ${key}. Ignoring message.`);
   }
