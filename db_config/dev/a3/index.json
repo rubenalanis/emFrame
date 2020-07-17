@@ -1,0 +1,12 @@
+{
+    "defaultComponents": {
+        "gaid": [
+            "UA-00000000-1"
+        ],
+        "datacore": {
+            "user": "xxxx",
+            "token": "xxxxx"
+        },
+        "airlineName": "Aegean Airlines"
+    }
+}
