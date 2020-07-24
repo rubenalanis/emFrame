@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-75129731-1" ], "datacore" : { "user" : "4ER0M3X1C0tracking", "token" : "45wjx2jg87o45WJX2JGCNO45wjx2jgaf645WJX2JGEIC" }, "airlineName" : "Aeromexico" } }
+{ "customSettings" : { "gaid" : [ "UA-75129731-1" ], "datacore" : { "user" : "4ER0M3X1C0tracking", "token" : "45wjx2jg87o45WJX2JGCNO45wjx2jgaf645WJX2JGEIC" }, "airlineName" : "Aeromexico" } }

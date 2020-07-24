@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-142423529-1" ], "datacore" : { "user" : "XXXXXX", "token" : "XXXXXXXXXXXXXXXXX" }, "airlineName" : "Airline TRFX" } }
+{ "customSettings" : { "gaid" : [ "UA-142423529-1" ], "datacore" : { "user" : "XXXXXX", "token" : "XXXXXXXXXXXXXXXXX" }, "airlineName" : "Airline TRFX" } }
