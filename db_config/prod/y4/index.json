@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-84026653-1" ], "datacore" : { "user" : "V0L4R15tracking", "token" : "f37gl7m2nsF37GL7M2C3f37gl7m2w846W2LW44N4C" }, "airlineName" : "Volaris" } }
+{ "customSettings" : { "gaid" : [ "UA-84026653-1" ], "datacore" : { "user" : "V0L4R15tracking", "token" : "f37gl7m2nsF37GL7M2C3f37gl7m2w846W2LW44N4C" }, "airlineName" : "Volaris" } }

@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-80615412-1" ], "datacore" : { "user" : "-", "token" : "-" }, "airlineName" : "Virgin Australia" } }
+{ "customSettings" : { "gaid" : [ "UA-80615412-1" ], "datacore" : { "user" : "-", "token" : "-" }, "airlineName" : "Virgin Australia" } }

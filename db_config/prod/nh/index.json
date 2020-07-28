@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-111085751-1" ], "datacore" : { "user" : "4N4tracking", "token" : "45ehe0ubme045EHE0UBROU45ehe0ubq5i45EHE0UBRN8" }, "airlineName" : "Ana Airlines" } }
+{ "customSettings" : { "gaid" : [ "UA-111085751-1" ], "datacore" : { "user" : "4N4tracking", "token" : "45ehe0ubme045EHE0UBROU45ehe0ubq5i45EHE0UBRN8" }, "airlineName" : "Ana Airlines" } }

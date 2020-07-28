@@ -1,1 +1,1 @@
-{ "defaultComponents" : { "gaid" : [ "UA-105522158-1" ], "datacore" : { "user" : "P3G45U5tracking", "token" : "472h930ux22472H930UYC4472h930ux7u472H930UWSC" }, "airlineName" : "Pegasus Airlines" } }
+{ "customSettings" : { "gaid" : [ "UA-105522158-1" ], "datacore" : { "user" : "P3G45U5tracking", "token" : "472h930ux22472H930UYC4472h930ux7u472H930UWSC" }, "airlineName" : "Pegasus Airlines" } }
