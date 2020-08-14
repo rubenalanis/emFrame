@@ -1,0 +1,12 @@
+{
+    "customSettings": {
+        "gaid": [
+            "UA-000000-1"
+        ],
+        "datacore": {
+            "user": "xxxxx",
+            "token": "xxxxxxx"
+        },
+        "airlineName": "Kuwait Airways"
+    }
+}
